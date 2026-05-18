@@ -1,14 +1,14 @@
-import nav from "@/components/Nav";
+import Nav from "@/components/Nav";
 
 export default function Sobre() {
     return (
         <>
-            <nav />
+            <Nav />
             <div className="container">
                 <h1>Sobre</h1>
                 <div className="card">
                     <p>
-                        Projeto desenvolvido com React, Next e consumo de API para disciplina Front-end.
+                        Projeto desenvolvido com React e Next.js.
                     </p>
                     <h3>Tecnologias:</h3>
                     <ul>
@@ -16,7 +16,6 @@ export default function Sobre() {
                         <li>Next.js</li>
                         <li>JavaScript</li>
                         <li>CSS</li>
-                        <li>Axios</li>
                     </ul>
                 </div>
             </div>

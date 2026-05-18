@@ -1,9 +1,11 @@
-import nav from "@/components/Nav";
+import Nav from "@/components/Nav";
+
 
 export default function Academica() {
     return(
         <>
-        <nav/>
+        <Nav/>
+        <page/>
         <div className="container">
             <h1>Experiência Acadêmica</h1>
 
