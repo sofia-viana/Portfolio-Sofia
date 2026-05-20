@@ -6,11 +6,11 @@
 }
 body{
   font-family: 'Poppins', sans-serif;
-  background: #0f172a;
+  background: #1e0f2a;
   color: white;
 }
 nav{ 
-  background: #111827;
+  background: #211127;
   padding: 20px 40px;
   display: flex;
   justify-content: center;
@@ -26,7 +26,7 @@ nav a {
  font-weight: 500;
 }
 nav a :hover{
-  color: #38bdf8;
+  color: #ab38f8;
 }
 .container{
   width: 90%;
@@ -35,7 +35,7 @@ nav a :hover{
   padding: 50px 0;
 }
 .hero{
-  min-height: 70vh;
+  min-height: 35vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -45,10 +45,10 @@ nav a :hover{
   margin-bottom: 15px;
 }
 .hero span{
-  color: #38bdf8;
+  color: #9838f8;
 }
 .hero p{
-  color: #cbd5e1;
+  color: #d5cbe1;
   font-size: 1.2rem;
   max-width: 600px;
   line-height: 1.8;
@@ -61,11 +61,11 @@ nav a :hover{
 }
 
 .card{
-  color:#0f172a;
+  color:#1d0f2a;
   background: white;
-  padding:20px;
+  padding:30px;
   border-radius: 10px;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 .card:hover{
   color:#0f172a;
@@ -73,13 +73,13 @@ nav a :hover{
 }
 .card p{
   color:#000000;
-  line-height:1.7;
+  line-height:1.;
 }
 
 .card a{
   display:inline-block;
-  margin-top:20px;
-  color:#38bdf8;
+  margin-top:15px;
+  color:#6e38f8;
   text-decoration:none;
   font-weight:600;
 }
@@ -91,13 +91,13 @@ nav a :hover{
 
 .subtitle{
   color:#eae0e0;
-  margin-bottom:40px;
+  margin-bottom:10px;
 }
 
 .quote{
   background: fixed linear-gradient(
-    #0ea5e9,
-    #2563eb
+    #910ee9,
+    #8b25eb
   );
 
   padding:30px;
@@ -105,7 +105,7 @@ nav a :hover{
   margin-top:40px;
 
   box-shadow:
-    0 10px 30px rgba(37,99,235,.3);
+    0 10px 30px rgba(133, 37, 235, 0.3);
 }
 
 .quote h2{

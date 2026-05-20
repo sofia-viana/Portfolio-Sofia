@@ -13,7 +13,7 @@ async function getQuote() {
 }catch{
   return{
     quote:'Nunca desista dos seus objetivos',
-    author: 'Autor Desconecido'
+    author: 'Autor Desconhecido'
 
   }
 } 
@@ -36,6 +36,7 @@ export default async function Home() {
       </section>
       <section>
         <br></br>
+        <br></br>
           <h2 className="title">
             Tecnologias
           </h2>
@@ -49,8 +50,7 @@ export default async function Home() {
             <div className="card">
               <h2>React</h2>
               <p>
-                Criação de interfaces modernas
-                e componentizadas.
+                Criação de interfaces modernas.
               </p>
             </div>
 
@@ -69,11 +69,15 @@ export default async function Home() {
                 de dados.
               </p>
             </div>
-
+              <div className="card">
+              <h2>SQL</h2>
+              <p>
+                Para consultas de comparação de infraestruturas escolares rurais e urbanas da Região Norte do Brasil.
+              </p>
+            </div>
           </div>
 
         </section>
-
       </div>
     </>   
   )

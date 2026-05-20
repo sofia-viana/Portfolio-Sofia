@@ -7,10 +7,8 @@ export default function Sobre() {
             <div className="container">
                 <h1>Sobre</h1>
                 <div className="card">
-                    <p>
-                        Projeto desenvolvido com React e Next.js.
-                    </p>
-                    <h3>Tecnologias:</h3>
+                <p>Projeto desenvolvido com React e Next.js.</p>
+                <h3>Tecnologias:</h3>
                     <ul>
                         <li>React</li>
                         <li>Next.js</li>
