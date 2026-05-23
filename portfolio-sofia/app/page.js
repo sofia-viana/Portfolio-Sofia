@@ -76,7 +76,6 @@ export default async function Home() {
               </p>
             </div>
           </div>
-
         </section>
       </div>
     </>   
